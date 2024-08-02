@@ -3,8 +3,12 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
+      backgroundColor: 'black',
       justifyContent: 'center',
     },
+    TextoTopo: {
+      fontSize: 35,
+      color: 'white',
+      marginLeft: '15%'
+    }
   });
